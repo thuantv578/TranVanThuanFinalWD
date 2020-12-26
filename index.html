@@ -1,0 +1,349 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	
+</head>
+
+<body>
+	<div id="wrapper" >
+		<div class="scroll">
+      <a href="#" title="Back to Top"></a>
+<!--			<span class="fas fa-angle-up"></span>-->
+    </div>
+		<header>
+				<div class="container">
+					<div class="navbar">
+						<img src="images/logo3.png" class="logo">
+						<nav>
+							<ul id="menuList">
+								<li><a href="">Home</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a href="">Services</a></li>
+								<li><a href="">Contact</a></li>
+							
+							</ul>
+						
+						</nav>
+						<img src="images/menu.png" class="menu-icon" onClick="togglemenu()">
+					</div>
+					
+					<div class="row">
+						<div class="col-1">
+								<h2>Greek Art<br></h2>
+								<h3>Series of busts and details of the human body</h3>
+								<p>Empathy | Courage | Creativity | Integrity | Agility</p>
+								<h4></h4>
+								<button type="button">View<img src="images/arrow.png"></button>
+						</div>
+						<div class="col-2">
+								<img src="images/hinh5.png" class="controller">
+								<div class="color-box"></div>
+
+								
+								
+						</div>
+					
+					</div>
+						
+			
+				</div>
+			
+				<script>
+						var menuList = document.getElementById("menuList");
+						menuList.style.maxHeight ="0px";
+						function togglemenu(){
+							if(menuList.style.maxHeight =="0px")
+								{
+									menuList.style.maxHeight ="130px";
+								}
+							else
+								{
+									menuList.style.maxHeight ="0px";
+								}
+						}
+			
+				</script>
+		
+		</header>
+		<main>
+			<div class="tieude">
+				<div class="container">
+					<p>Inspired by classical <span>Greek</span> art</p>
+				</div>
+			</div>	
+			
+			<section class="banner1">
+					<div class="container">
+						<div class="row">
+							
+								<div class="left-col">
+									<div class="content">
+										<h1><span>Hermes</span> Innovation</h1>
+										<p>Hermes is best known for his capacity as a messenger
+										<br>and his association with the economic and mercantile.
+										<br>The spheres around him represent the various worlds
+										<br>he connects, while the hoop symbolizes the infinite
+										<br>cycle of perfection and innovation.
+										
+										</p>
+									<div class="arrow2">
+										<img src="images/arrow2.png"> 
+									</div>
+										<img src="images/art.png" class="art">
+									</div>
+								</div>
+								<div class="right-col" data-aos="fade-left">
+									<img src="images/tuong2.png" class="picture">
+							
+								</div>
+						
+								
+						
+						</div>
+					
+					
+					
+					</div>
+			
+			
+				</section>
+				<div class="empty2"></div>
+				<section class="banner2">
+					<div class="container">
+						
+						<div class="row">
+							
+								
+								<div class="right-col2" data-aos="fade-right">
+									<img src="images/hinh1.png" class="picture2">
+							
+								</div>
+								
+								<div class="left-col2">
+									<div class="content2">
+										<h1><span>Athena</span> Leadership</h1>
+										<p>Athena stands out as a warrior and strategist.Her
+										<br>golden helmet represents the value of her
+										<br>knowledge.The colors that decorate her relect
+										<br>her challenging and inspiring personality when
+										<br>she is at the front in the battlefield.<br>
+										
+										</p>
+									<div class="arrow3">
+										<img src="images/arrow2.png"> 
+									</div>
+										<img src="images/art.png" class="art2">
+									</div>
+								</div>
+						
+						</div>
+					
+					
+					
+					</div>
+			
+			
+				</section>
+			
+			
+				<section class="banner4">
+					<div class="container">
+						<div class="row">
+							
+								<div class="left-col4">
+									<div class="content4">
+										<h1><span>Apollo</span> Insight</h1>
+										<p>The variety of colors represents insights and the
+										<br>sensitivity with which they are percelved. They are
+										<br>within Apollo due to their capacity for catharsis,
+										<br>freeing empathy, creativity and intelligence.
+										
+										</p>
+									<div class="arrow2">
+										<img src="images/arrow2.png"> 
+									</div>
+										<img src="images/art.png" class="art">
+									</div>
+								</div>
+								
+							<div class="right-col4" data-aos="fade-up">
+									<img src="images/tuong3.png" class="picture3">
+							
+								</div>
+						
+								
+						
+						</div>
+					
+					
+					
+					</div>
+			
+			
+				</section>
+			<section class="musicquote">
+				<div class="container">
+					<img src="images/musicquote.png">
+				</div>
+			</section>
+<!--		music-->
+				<section class="music">
+					<div class="container">
+<!--
+						<div class="khungbutton">
+						<div class="add-btn">
+									<img src="images/videobutt.png">
+									<p><small>Play Music!</small></p>
+							
+								</div>
+						</div>
+-->
+						<div class="khungtuongmusic">
+						<div class="tuongmusic1">
+							<img src="images/tuongmusic3re.png">
+							
+						</div>
+							<div class="khungbutton">
+								
+						<div class="add-btn">
+									<img src="images/videobutt.png" id="icon">
+									<p><small>Play Music!</small></p>
+									
+							
+								</div>
+							<audio id="mySong">
+								<source src="images/sound1.mp3" type="audio/mp3">	
+							</audio>
+							<script>
+								var mySong = document.getElementById("mySong");
+								var icon = document.getElementById("icon");
+								
+								icon.onclick = function(){
+									if(mySong.paused){
+									mySong.play();
+									icon.src = "images/pause.png";
+									}else{
+										mySong.pause();
+										icon.src = "images/videobutt.png";
+									}
+								}
+									
+							</script>
+						</div>
+						<div class="tuongmusic3">
+							<img src="images/tuongmusic3reflex.png">
+						</div>
+							</div>
+					</div>
+			
+			
+				</section>
+				
+			<section class="nearend">
+				
+					<div class="khungnearend">
+						<div class="container">
+							<div class="noidungnearend">
+								<h1>Please! Dont Broke My HE<span>ART</span></h1>
+							<p>The Broken Statue reveals the determination, grit, successes, and frustrations of E.W. <br>Marland and the tragic challenges he left for his young widow, Lydie Marland after his <br>death. Buried in the red soil of the Oklahoma prairie is a secret. A marble statue of a <br>striking young woman is buried and lost for thirty years.</p>
+								<h1><span>FIND OUT<code>➜</code></span></h1>
+							</div>
+							<div class="beaf">
+									<img src="images/before1.png" id="bef">
+									
+									
+								
+								</div>
+						
+							</div>
+							<audio id="mySong2">
+								<source src="images/sound2.mp3" type="audio/mp3">	
+							</audio>
+							<script>
+								var mySong2 = document.getElementById("mySong2");
+								var icon = document.getElementById("icon");
+								
+								bef.onclick = function(){
+									if(mySong2.paused){
+									mySong2.play();
+									bef.src = "images/after1.png";
+									}else{
+										mySong2.pause();
+										bef.src = "images/before1.png";
+									}
+								}
+									
+							</script>
+						</div>
+			
+			
+			
+			</section>
+			
+			
+			<section class="banner3">
+					<div class="frame"></div>
+					<div class="slide">
+						<img src="images/hinh6.png">
+					
+					</div>
+						
+							<div class="animation"></div>
+						
+						
+						
+						
+					
+					
+					
+			
+				</section>
+			
+				<div class="empty"></div>
+		
+		</main>
+		<footer>
+			<section id="footer">
+			
+					<div class="footer-row">
+						<div class="footer-left">
+							<h1>About Us</h1>
+							<p><i class="fa fa-clock-o"></i>Terms and Condition</p>
+							<p><i class="fa fa-clock-o"></i>Privacy Policy</p>
+						</div>
+						<div class="footer-right">
+							<h1>Get In Touch</h1>
+							<p>Tran Van Thuan - Graphic Designer  <i class="fa fa-map-marker"></i></p>
+							<p>tranvanthuan1030@gmail.com  <i class="fa fa-paper-plane"></i></p>
+							<p>0394349311  <i class="fa fa-phone"></i></p>
+						</div>
+				
+						
+						
+					</div>
+			
+						<div class="social-links">
+							<img src="images/fb.png"> 
+							<img src="images/tw.png">
+							<img src="images/ig.png">
+						
+						</div>
+				
+			</section>
+		
+		
+		</footer>
+	</div>
+</body>
+	<script>
+  AOS.init({
+	  duration: 1000,
+  });
+</script>
+</html>
